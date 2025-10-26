@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindArena | Test Your Knowledge</title>
+  <link rel="stylesheet" href="/dist/output.css">
+
+  <style>
+    /* Custom glow animation */
+    @keyframes glow {
+      0%, 100% { text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff; }
+      50% { text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff; }
+    }
+    .glow-text { animation: glow 2s ease-in-out infinite alternate; }
+  </style>
+</head>
+
+<body class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-gray-900 via-blue-950 to-black text-white overflow-hidden">
+
+  <!-- Hero Section -->
+  <div class="text-center px-6 z-10">
+    <h1 class="text-5xl md:text-6xl font-extrabold mb-4 glow-text">MindArena</h1>
+    <p class="text-lg mb-8 text-gray-300">Test your knowledge and challenge your mind!</p>
+
+    <!-- Brain Image -->
+    <img src="/assets/—Pngtree—mind share brain logo design_20612565.png" 
+         alt="MindArena Brain" 
+         class="w-64 mx-auto mb-10 drop-shadow-[0_0_25px_#00ffff] animate-pulse">
+
+    <!-- Start Button -->
+    <button id="startBtn"
+      class="bg-cyan-500 hover:bg-cyan-400 text-black font-bold px-8 py-3 rounded-full text-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_#00ffff]">
+      Begin Challenge
+    </button>
+  </div>
+
+  <!-- Background Animated Blur Lights -->
+  <div class="absolute w-96 h-96 bg-cyan-500/20 blur-[180px] rounded-full -top-20 -left-20 animate-pulse"></div>
+  <div class="absolute w-80 h-80 bg-purple-500/20 blur-[160px] rounded-full bottom-0 right-0 animate-pulse"></div>
+
+  <!-- JavaScript -->
+  <script>
+    document.getElementById("startBtn").addEventListener("click", () => {
+      const isLoggedIn = localStorage.getItem("loggedIn"); // simulate login check
+      if (isLoggedIn === "true") {
+        window.location.href = "quiz.html";
+      } else {
+        window.location.href = "login.html";
+      }
+    });
+  </script>
+
+</body>
+</html>
