@@ -1,54 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MindArena | Login</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="/dist/output.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <style>
+    /* Glow animation */
     @keyframes glow {
-      0%, 100% { text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff; }
-      50% { text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff; }
+      0%, 100% { text-shadow: 0 0 10px #00ffff, 0 0 25px #00ffff; }
+      50% { text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff; }
     }
     .glow-text { animation: glow 2s ease-in-out infinite alternate; }
+
+    /* Floating Blur Background */
+    .neon-bg {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(180px);
+      opacity: 0.3;
+    }
+
+    /* Floating Motion */
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0px); }
+    }
+    .animate-float { animation: float 6s ease-in-out infinite; }
   </style>
 </head>
 
-<body class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-blue-950 to-black text-white relative overflow-hidden">
+<body class="min-h-screen flex items-center justify-center bg-gradient-to-br from-black via-[#0B0C10] to-[#1F2833] text-white relative overflow-hidden">
 
-  <!-- Background glow circles -->
-  <div class="absolute w-96 h-96 bg-cyan-500/20 blur-[180px] rounded-full -top-20 -left-20 animate-pulse"></div>
-  <div class="absolute w-80 h-80 bg-purple-500/20 blur-[160px] rounded-full bottom-0 right-0 animate-pulse"></div>
+  <!-- Floating Neon Backgrounds -->
+  <div class="neon-bg w-96 h-96 bg-cyan-500/20 -top-16 -left-16 animate-pulse"></div>
+  <div class="neon-bg w-72 h-72 bg-teal-400/20 bottom-0 right-0 animate-pulse"></div>
 
-  <!-- Login Card -->
-  <div class="relative z-10 bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-2xl w-full max-w-md p-8 text-center">
-    <h1 class="text-4xl font-extrabold mb-6 glow-text">Welcome to MindArena</h1>
-    <p class="text-gray-300 mb-8">Login to begin your challenge</p>
+  <!-- Login Container -->
+  <div class="relative z-10 flex flex-col md:flex-row items-center justify-center bg-white/10 backdrop-blur-lg border border-cyan-400/20 rounded-3xl shadow-2xl w-full max-w-4xl p-6 m-6 md:p-10 md:gap-8">
 
-    <!-- Login Form -->
-    <form id="loginForm" class="space-y-5">
-      <div class="text-left">
-        <label for="email" class="block text-gray-300 mb-2">Email</label>
-        <input type="email" id="email" placeholder="Enter your email"
-          class="w-full px-4 py-2 rounded-lg bg-gray-800/60 border border-gray-700 text-white focus:ring-2 focus:ring-cyan-400 outline-none" required>
-      </div>
+    <!-- Form Section -->
+    <div class="flex-1 w-full text-center md:text-left">
+      <h1 class="text-3xl sm:text-4xl font-extrabold mb-4 glow-text text-white">Welcome to MindArena</h1>
+      <p class="text-gray-400 mb-6 sm:mb-8">Login to begin your challenge</p>
 
-      <div class="text-left">
-        <label for="password" class="block text-gray-300 mb-2">Password</label>
-        <input type="password" id="password" placeholder="Enter your password"
-          class="w-full px-4 py-2 rounded-lg bg-gray-800/60 border border-gray-700 text-white focus:ring-2 focus:ring-cyan-400 outline-none" required>
-      </div>
+      <!-- Mobile Illustration -->
+      <img src="/assets/2nd Img.png" alt="Quiz Brain Illustration"
+        class="w-1/2 mx-auto mb-4 md:hidden drop-shadow-[0_0_25px_#00ffff] animate-float">
 
-      <button type="submit"
-        class="w-full bg-cyan-500 hover:bg-cyan-400 text-black font-bold py-2 rounded-full text-lg transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_#00ffff]">
-        Login
-      </button>
-    </form>
+      <!-- Login Form -->
+      <form id="loginForm" class="space-y-4 sm:space-y-5">
+        <div class="text-left">
+          <label for="email" class="block text-gray-300 mb-1 sm:mb-2 text-sm sm:text-base">Email</label>
+          <input type="email" id="email" placeholder="Enter your email"
+            class="w-full px-4 py-2 rounded-lg bg-white/5 border border-cyan-400/20 text-white text-sm sm:text-base focus:ring-2 focus:ring-cyan-400 outline-none" required>
+        </div>
 
-    <p class="mt-6 text-gray-400 text-sm">
-      Don’t have an account?
-      <a href="#" id="registerLink" class="text-cyan-400 hover:underline">Register here</a>
-    </p>
+        <div class="text-left">
+          <label for="password" class="block text-gray-300 mb-1 sm:mb-2 text-sm sm:text-base">Password</label>
+          <input type="password" id="password" placeholder="Enter your password"
+            class="w-full px-4 py-2 rounded-lg bg-white/5 border border-cyan-400/20 text-white text-sm sm:text-base focus:ring-2 focus:ring-cyan-400 outline-none" required>
+        </div>
+
+        <button type="submit"
+          class="w-full bg-cyan-400 hover:bg-cyan-500 text-black font-bold py-2 sm:py-3 rounded-full text-base sm:text-lg transition-all duration-300 hover:scale-105 hover:shadow-[0_0_10px_#00ffff]">
+          Login
+        </button>
+      </form>
+
+      <p class="mt-4 sm:mt-6 text-gray-400 text-xs sm:text-sm">
+        Don’t have an account?
+        <a href="register.html" id="registerLink" class="text-cyan-400 hover:font-semibold">Register here</a>
+      </p>
+    </div>
+
+    <!-- Desktop Illustration -->
+    <div class="flex-1 w-full mt-6 md:mt-0 hidden md:flex justify-center md:justify-end">
+      <img src="/assets/2nd Img.png" alt="Quiz Brain Illustration"
+        class="w-full max-w-sm drop-shadow-[0_0_25px_#00ffff] animate-float">
+    </div>
+
   </div>
 
   <!-- Script -->
@@ -61,20 +96,32 @@
       const email = document.getElementById('email').value.trim();
       const password = document.getElementById('password').value.trim();
 
-      if (email && password) {
-        // Simple fake login system using localStorage
+      if (!email || !password) {
+        alert('Please fill in all fields!');
+        return;
+      }
+
+      const registeredEmail = localStorage.getItem('userEmail');
+      const registeredPassword = localStorage.getItem('userPassword');
+
+      if (!registeredEmail || !registeredPassword) {
+        alert('No registered user found! Please register first.');
+        return;
+      }
+
+      if (email === registeredEmail && password === registeredPassword) {
         localStorage.setItem('loggedIn', 'true');
         localStorage.setItem('userEmail', email);
         alert('Login Successful! Redirecting...');
-        window.location.href = 'quiz.html';
+        window.location.href = 'home.html';
       } else {
-        alert('Please fill in all fields!');
+        alert('Incorrect email or password!');
       }
     });
 
     registerLink.addEventListener('click', (e) => {
       e.preventDefault();
-      alert('Registration feature coming soon!');
+      window.location.href = 'register.html';
     });
   </script>
 
