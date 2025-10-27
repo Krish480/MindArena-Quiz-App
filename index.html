@@ -1,55 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MindArena | Test Your Knowledge</title>
   <link rel="stylesheet" href="/dist/output.css">
-
+  <link rel="stylesheet" href="">
+  <link rel="icon" type="image/png" href="/src/custom.css">
   <style>
-    /* Custom glow animation */
+     /* Glow Animation */
     @keyframes glow {
-      0%, 100% { text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff; }
-      50% { text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff; }
+      0%, 100% {
+        text-shadow: 0 0 12px #00ffff, 0 0 20px #0EA5E9;
+      }
+      50% {
+        text-shadow: 0 0 10px #06B6D4, 0 0 25px #38BDF8;
+      }
     }
-    .glow-text { animation: glow 2s ease-in-out infinite alternate; }
+    .glow-text {
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    /* Floating Shapes  */
+    @keyframes float {
+      0% { transform: translateY(0px) translateX(0px); }
+      50% { transform: translateY(-20px) translateX(15px); }
+      100% { transform: translateY(0px) translateX(0px); }
+    }
+    .floating-shape {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.25;
+      filter: blur(140px);
+      animation: float 6s ease-in-out infinite alternate;
+    }
+
+    /*  Neon Button  */
+    .neon-btn {
+      background: linear-gradient(to right, #0EA5E9, #06B6D4);
+      box-shadow: 0 0 25px #06B6D4;
+      color: #fff;
+      transition: all 0.3s ease;
+    }
+    .neon-btn:hover {
+      box-shadow: 0 0 20px #22D3EE;
+      transform: scale(1.05);
+    }
+
+    /*  Responsive Image  */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
   </style>
 </head>
 
-<body class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-gray-900 via-blue-950 to-black text-white overflow-hidden">
+<body class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-[#0B0C10] to-[#1F2833] text-white overflow-hidden relative">
 
   <!-- Hero Section -->
-  <div class="text-center px-6 z-10">
-    <h1 class="text-5xl md:text-6xl font-extrabold mb-4 glow-text">MindArena</h1>
-    <p class="text-lg mb-8 text-gray-300">Test your knowledge and challenge your mind!</p>
+  <main class="text-center px-6 z-10">
+    <h1 class="text-5xl sm:text-6xl font-extrabold mb-4 glow-text tracking-wide text-white">MindArena</h1>
+    <p class="text-base sm:text-lg md:text-xl mb-10 text-gray-300">
+      Challenge your knowledge in the <span class="text-cyan-400 font-semibold">MindArena</span> — where brilliance begins.
+    </p>
 
     <!-- Brain Image -->
-    <img src="/assets/—Pngtree—mind share brain logo design_20612565.png" 
+    <img src="/assets/1st Img.png" 
          alt="MindArena Brain" 
-         class="w-64 mx-auto mb-10 drop-shadow-[0_0_25px_#00ffff] animate-pulse">
+         class="w-48 sm:w-56 md:w-64 mx-auto mb-10 drop-shadow-[0_0_35px_#06B6D4] animate-pulse">
 
     <!-- Start Button -->
     <button id="startBtn"
-      class="bg-cyan-500 hover:bg-cyan-400 text-black font-bold px-8 py-3 rounded-full text-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_#00ffff]">
+      class="neon-btn px-8 py-3 rounded-full text-lg sm:text-xl font-bold">
       Begin Challenge
     </button>
-  </div>
+  </main>
 
-  <!-- Background Animated Blur Lights -->
-  <div class="absolute w-96 h-96 bg-cyan-500/20 blur-[180px] rounded-full -top-20 -left-20 animate-pulse"></div>
-  <div class="absolute w-80 h-80 bg-purple-500/20 blur-[160px] rounded-full bottom-0 right-0 animate-pulse"></div>
+  <!-- Floating Neon Backgrounds -->
+  <div class="floating-shape w-72 h-72 bg-cyan-500/30 -top-16 -left-16"></div>
+  <div class="floating-shape w-64 h-64 bg-sky-400/30 bottom-0 right-0"></div>
+  <div class="floating-shape w-56 h-56 bg-teal-400/30 top-1/3 left-1/4"></div>
 
   <!-- JavaScript -->
   <script>
     document.getElementById("startBtn").addEventListener("click", () => {
-      const isLoggedIn = localStorage.getItem("loggedIn"); // simulate login check
+      const isLoggedIn = localStorage.getItem("loggedIn");
       if (isLoggedIn === "true") {
-        window.location.href = "quiz.html";
+        window.location.href = "home.html";
       } else {
         window.location.href = "login.html";
       }
     });
   </script>
-
 </body>
 </html>
