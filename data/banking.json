@@ -1,0 +1,315 @@
+{
+  "category": "Banking Awareness",
+  "levels": [
+    {
+      "level": 1,
+      "difficulty": "Easy",
+      "questions": [
+        {
+          "question": "What is the full form of RBI?",
+          "options": ["Rural Banking Institute", "Regional Bank of India", "Reserve Bank of India", "Regulated Banking Initiative"],
+          "answer": "Reserve Bank of India"
+        },
+        {
+          "question": "Which body is responsible for regulating and supervising commercial banks in India?",
+          "options": ["SEBI", "Ministry of Finance", "IRDAI", "Reserve Bank of India"],
+          "answer": "Reserve Bank of India"
+        },
+        {
+          "question": "What does the abbreviation KYC stand for in the context of banking?",
+          "options": ["Know Your Customer", "Keeping Your Credit", "Key Yield Calculator", "Knowledge of Your Company"],
+          "answer": "Know Your Customer"
+        },
+        {
+          "question": "The headquarters of the Reserve Bank of India is permanently located in which city?",
+          "options": ["New Delhi", "Kolkata", "Chennai", "Mumbai"],
+          "answer": "Mumbai"
+        },
+        {
+          "question": "What is the minimum transfer amount required for a RTGS (Real-Time Gross Settlement) transaction?",
+          "options": ["1 Lakh", "2 Lakh", "50,000", "No minimum limit"],
+          "answer": "2 Lakh"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "difficulty": "Easy",
+      "questions": [
+        {
+          "question": "Which type of bank account is primarily meant for salaried individuals and allows frequent transactions?",
+          "options": ["Current Account", "Fixed Deposit Account", "Savings Account", "Recurring Deposit Account"],
+          "answer": "Savings Account"
+        },
+        {
+          "question": "What term is used for the facility that allows a customer to withdraw funds exceeding the available balance in their account up to a certain limit?",
+          "options": ["Credit Card", "Bank Guarantee", "Overdraft", "Cash Credit"],
+          "answer": "Overdraft"
+        },
+        {
+          "question": "What is the primary function of a Commercial Bank?",
+          "options": ["Printing Currency Notes", "Accepting deposits and granting loans", "Formulating Monetary Policy", "Regulating stock exchanges"],
+          "answer": "Accepting deposits and granting loans"
+        },
+        {
+          "question": "The term 'Bancassurance' refers to the selling of which two products together?",
+          "options": ["Banking and Agriculture", "Banking and Insurance", "Banking and Mutual Funds", "Banking and Real Estate"],
+          "answer": "Banking and Insurance"
+        },
+        {
+          "question": "What is the maximum insurance cover provided by DICGC (Deposit Insurance and Credit Guarantee Corporation) per depositor per bank?",
+          "options": ["1 Lakh", "2 Lakh", "5 Lakh", "10 Lakh"],
+          "answer": "5 Lakh"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "difficulty": "Medium",
+      "questions": [
+        {
+          "question": "Which institution in India is responsible for the regulation and development of agriculture and rural credit?",
+          "options": ["NABARD", "SIDBI", "SEBI", "EXIM Bank"],
+          "answer": "NABARD"
+        },
+        {
+          "question": "The rate at which the RBI lends money to commercial banks for the short term is known as the:",
+          "options": ["Reverse Repo Rate", "Repo Rate", "Bank Rate", "MSF Rate"],
+          "answer": "Repo Rate"
+        },
+        {
+          "question": "The Reserve Bank of India was established based on the recommendations of which commission?",
+          "options": ["Sarkaria Commission", "Kothari Commission", "Hilton Young Commission", "Mandal Commission"],
+          "answer": "Hilton Young Commission"
+        },
+        {
+          "question": "What is the full form of SIDBI?",
+          "options": ["State Industrial Development Bank of India", "Small Industries Development Bank of India", "Securities and Investment Bank of India", "Standardized Industrial Development Bank of India"],
+          "answer": "Small Industries Development Bank of India"
+        },
+        {
+          "question": "What is the maximum tenure for which a bank can issue a Certificate of Deposit (CD)?",
+          "options": ["6 months", "One year", "3 years", "5 years"],
+          "answer": "One year"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "difficulty": "Medium",
+      "questions": [
+        {
+          "question": "Which of the following is considered an unconditional order in writing, signed by the maker, to pay a certain sum of money to a specified person?",
+          "options": ["Promissory Note", "Cheque", "Bill of Exchange", "Demand Draft"],
+          "answer": "Bill of Exchange"
+        },
+        {
+          "question": "Which type of cheque has two parallel lines drawn across its face and must be deposited directly into the payee's account?",
+          "options": ["Bearer Cheque", "Order Cheque", "Post-dated Cheque", "Crossed Cheque"],
+          "answer": "Crossed Cheque"
+        },
+        {
+          "question": "The PMJDY (Pradhan Mantri Jan-Dhan Yojana) primarily aims at achieving what key objective?",
+          "options": ["Poverty Alleviation", "Rural Employment", "Financial Inclusion", "Digital Literacy"],
+          "answer": "Financial Inclusion"
+        },
+        {
+          "question": "What is the minimum denomination for issuing a Commercial Paper (CP) in the Indian Money Market?",
+          "options": ["1 Lakh", "5 Lakh", "10 Lakh", "25 Lakh"],
+          "answer": "5 Lakh"
+        },
+        {
+          "question": "The term used for the deliberate lowering of the value of a country's currency in relation to other currencies is called:",
+          "options": ["Inflation", "Deflation", "Devaluation", "Revaluation"],
+          "answer": "Devaluation"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "difficulty": "Medium",
+      "questions": [
+        {
+          "question": "In which year was the Prevention of Money Laundering Act (PMLA) enacted in India?",
+          "options": ["1999", "2000", "2002", "2005"],
+          "answer": "2002"
+        },
+        {
+          "question": "The Basel Norms set international standards primarily concerning which aspect of banking risk management?",
+          "options": ["Liquidity Management", "Operational Efficiency", "Capital Adequacy", "Customer Service"],
+          "answer": "Capital Adequacy"
+        },
+        {
+          "question": "The Banking Regulation Act which governs the functioning of commercial banks was passed in which year?",
+          "options": ["1934", "1947", "1949", "1951"],
+          "answer": "1949"
+        },
+        {
+          "question": "Under the RBI's Clean Note Policy, what is a key directive regarding soiled and mutilated notes?",
+          "options": ["They must be destroyed by the customer", "They should be exchanged at any bank branch", "They are not considered legal tender", "Only the RBI can accept them"],
+          "answer": "They should be exchanged at any bank branch"
+        },
+        {
+          "question": "What does the letter 'C' in the banking ratio CASA stand for?",
+          "options": ["Capital", "Credit", "Current", "Cash"],
+          "answer": "Current"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "difficulty": "Hard",
+      "questions": [
+        {
+          "question": "Which Monetary Policy tool is used by the RBI specifically to absorb liquidity from the market on a short-term basis?",
+          "options": ["Repo Rate", "Bank Rate", "Reverse Repo Rate", "Marginal Standing Facility (MSF)"],
+          "answer": "Reverse Repo Rate"
+        },
+        {
+          "question": "A sudden increase in the Cash Reserve Ratio (CRR) primarily affects a bank's ability to do what?",
+          "options": ["Expand its branch network", "Offer higher deposit rates", "Lend money", "Increase its total assets"],
+          "answer": "Lend money"
+        },
+        {
+          "question": "Which type of inflation is primarily caused by an increase in the cost of raw materials and production expenses?",
+          "options": ["Demand-Pull Inflation", "Cost-Push Inflation", "Hyperinflation", "Stagflation"],
+          "answer": "Cost-Push Inflation"
+        },
+        {
+          "question": "What is the full form of LAF, a key term related to the daily management of bank liquidity by the RBI?",
+          "options": ["Long-term Asset Financing", "Liquidity Adjustment Facility", "Loan and Fund", "Lending and Financial"],
+          "answer": "Liquidity Adjustment Facility"
+        },
+        {
+          "question": "The NDTL of a bank includes which type of liabilities?",
+          "options": ["Only Demand Liabilities", "Only Term Liabilities", "Net Demand and Time Liabilities", "Gross Demand and Time Liabilities"],
+          "answer": "Net Demand and Time Liabilities"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "difficulty": "Hard",
+      "questions": [
+        {
+          "question": "Treasury Bills (T-Bills), a money market instrument, are issued on behalf of the Government of India by which entity?",
+          "options": ["SEBI", "Ministry of Finance", "Reserve Bank of India", "State Bank of India"],
+          "answer": "Reserve Bank of India"
+        },
+        {
+          "question": "Which category of loans is NOT currently included under Priority Sector Lending (PSL) in India?",
+          "options": ["Education Loans", "Housing Loans", "Loans to Agriculture", "Corporate Loans to Large Industries"],
+          "answer": "Corporate Loans to Large Industries"
+        },
+        {
+          "question": "What is the primary function of a Credit Rating Agency (like CRISIL or CARE)?",
+          "options": ["Guaranteeing loans for banks", "Assessing the creditworthiness of a borrower or issuer", "Setting interest rates for deposits", "Regulating the stock market"],
+          "answer": "Assessing the creditworthiness of a borrower or issuer"
+        },
+        {
+          "question": "What is the name given to the market where new securities are issued for the first time by a company?",
+          "options": ["Secondary Market", "Stock Market", "Primary Market", "Money Market"],
+          "answer": "Primary Market"
+        },
+        {
+          "question": "The maturity period of Money Market instruments is generally up to what maximum duration?",
+          "options": ["6 months", "One year", "3 years", "5 years"],
+          "answer": "One year"
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "difficulty": "Advanced",
+      "questions": [
+        {
+          "question": "The Banking Ombudsman Scheme is related to the resolution of which type of issue?",
+          "options": ["Inter-bank disputes", "Bank-government disputes", "Customer Complaints against banks", "International trade settlement"],
+          "answer": "Customer Complaints against banks"
+        },
+        {
+          "question": "What is the core objective of the Insolvency and Bankruptcy Code (IBC), enacted in 2016?",
+          "options": ["Providing microfinance loans", "Regulating stock exchanges", "Time-bound resolution of corporate insolvency", "Promoting financial literacy"],
+          "answer": "Time-bound resolution of corporate insolvency"
+        },
+        {
+          "question": "Which type of bank in India is not permitted to issue loans or credit cards?",
+          "options": ["Co-operative Bank", "Small Finance Bank", "Payment Bank", "Regional Rural Bank"],
+          "answer": "Payment Bank"
+        },
+        {
+          "question": "Small Finance Banks were primarily created with the aim of promoting what?",
+          "options": ["Lending to large corporates", "Financial inclusion in unserved/underserved areas", "Managing government debt", "International remittance services"],
+          "answer": "Financial inclusion in unserved/underserved areas"
+        },
+        {
+          "question": "The ratio that measures a bank's capital in relation to its risk-weighted assets is known as:",
+          "options": ["Statutory Liquidity Ratio (SLR)", "Capital Adequacy Ratio (CAR)", "Cash Reserve Ratio (CRR)", "Net Interest Margin (NIM)"],
+          "answer": "Capital Adequacy Ratio (CAR)"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "difficulty": "Advanced",
+      "questions": [
+        {
+          "question": "What is the full form of SWIFT, the global network used for interbank financial messaging?",
+          "options": ["Securities World Interbank Funds Transfer", "Society for Worldwide Interbank Financial Telecommunication", "System Wide Integrated Financial Transaction", "Standardized Worldwide Interbank Fund Tracking"],
+          "answer": "Society for Worldwide Interbank Financial Telecommunication"
+        },
+        {
+          "question": "Which type of banking risk arises from potential losses due to changes in market factors like interest rates, exchange rates, or equity prices?",
+          "options": ["Credit Risk", "Operational Risk", "Market Risk", "Liquidity Risk"],
+          "answer": "Market Risk"
+        },
+        {
+          "question": "Which international organization sets standards for combating money laundering and terrorist financing?",
+          "options": ["IMF", "World Bank", "FATF", "OECD"],
+          "answer": "FATF"
+        },
+        {
+          "question": "Which term denotes the risk of a borrower or counterparty failing to meet their debt obligations on time?",
+          "options": ["Market Risk", "Credit Risk", "Systemic Risk", "Sovereign Risk"],
+          "answer": "Credit Risk"
+        },
+        {
+          "question": "The difference between a bank's assets and liabilities in foreign currencies exposes the bank to which specific risk?",
+          "options": ["Interest Rate Risk", "Exchange Rate Risk", "Credit Risk", "Operational Risk"],
+          "answer": "Exchange Rate Risk"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "difficulty": "Expert",
+      "questions": [
+        {
+          "question": "What is the full form of LCR, a key liquidity standard introduced under Basel III?",
+          "options": ["Lending to Commercial Risk", "Liquidity Capital Ratio", "Liquidity Coverage Ratio", "Local Currency Requirement"],
+          "answer": "Liquidity Coverage Ratio"
+        },
+        {
+          "question": "Open Market Operations (OMO) by the RBI primarily involve the buying and selling of which instrument?",
+          "options": ["Gold", "Foreign Currency", "Commercial Paper", "Government Securities"],
+          "answer": "Government Securities"
+        },
+        {
+          "question": "The first phase of Nationalization of Commercial Banks in India, involving 14 major banks, took place in which year?",
+          "options": ["1955", "1969", "1980", "1991"],
+          "answer": "1969"
+        },
+        {
+          "question": "Which term is used for a loan or advance where the interest and/or installment of principal remains overdue for a period of more than 90 days?",
+          "options": ["Non-Performing Asset (NPA)", "Standard Asset (SA)", "Sub-Standard Asset (SSA)", "Special Mention Account (SMA)"],
+          "answer": "Non-Performing Asset (NPA)"
+        },
+        {
+          "question": "Which major committee (chaired by M. Narasimham in 1991) is known for recommending sweeping structural reforms in the Indian financial system?",
+          "options": ["Rangarajan Committee", "Urjit Patel Committee", "Narasimham Committee", "Nachiket Mor Committee"],
+          "answer": "Narasimham Committee"
+        }
+      ]
+    }
+  ]
+}

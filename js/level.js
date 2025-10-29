@@ -6,6 +6,10 @@ const titles = {
   math: "Mathematics Journey 🧮",
   science: "Science Quest 🔬",
   history: "History Voyage 📜",
+  gk: "General Knowledge 🧠",
+  computer: "Computer Awareness 🖥️",
+  banking: "Banking Awareness 🏦"
+
 };
 
 // DOM references

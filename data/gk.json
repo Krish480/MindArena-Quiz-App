@@ -1,0 +1,315 @@
+{
+  "category": "General Knowledge (GK)",
+  "levels": [
+    {
+      "level": 1,
+      "difficulty": "Easy",
+      "questions": [
+        {
+          "question": "What is the national bird of India?",
+          "options": ["Pigeon", "Peacock", "Parrot", "Cuckoo"],
+          "answer": "Peacock"
+        },
+        {
+          "question": "Which is the largest planet in the solar system?",
+          "options": ["Mars", "Earth", "Jupiter", "Saturn"],
+          "answer": "Jupiter"
+        },
+        {
+          "question": "Which Indian city is known as the 'Pink City'?",
+          "options": ["Jodhpur", "Udaipur", "Jaipur", "Bikaner"],
+          "answer": "Jaipur"
+        },
+        {
+          "question": "Who is known as the Father of the Nation in India?",
+          "options": ["Pandit Jawaharlal Nehru", "Subhas Chandra Bose", "Mahatma Gandhi", "Sardar Vallabhbhai Patel"],
+          "answer": "Mahatma Gandhi"
+        },
+        {
+          "question": "How many days are there in a Leap Year?",
+          "options": ["365", "366", "364", "367"],
+          "answer": "366"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "difficulty": "Easy",
+      "questions": [
+        {
+          "question": "What is the chemical formula for water?",
+          "options": ["H₂O₂", "CO₂", "NaCl", "H₂O"],
+          "answer": "H₂O"
+        },
+        {
+          "question": "When was the Constitution of India implemented?",
+          "options": ["August 15, 1947", "January 26, 1950", "October 2, 1948", "January 1, 1950"],
+          "answer": "January 26, 1950"
+        },
+        {
+          "question": "Who is the author of the national anthem, 'Jana Gana Mana'?",
+          "options": ["Bankim Chandra Chatterjee", "Rabindranath Tagore", "Subhas Chandra Bose", "Muhammad Iqbal"],
+          "answer": "Rabindranath Tagore"
+        },
+        {
+          "question": "Which is the largest continent in the world?",
+          "options": ["Africa", "Europe", "Asia", "North America"],
+          "answer": "Asia"
+        },
+        {
+          "question": "Which instrument is used to measure atmospheric pressure?",
+          "options": ["Odometer", "Thermometer", "Barometer", "Ammeter"],
+          "answer": "Barometer"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "difficulty": "Medium",
+      "questions": [
+        {
+          "question": "Which planet is known as the 'Red Planet'?",
+          "options": ["Venus", "Mars", "Jupiter", "Mercury"],
+          "answer": "Mars"
+        },
+        {
+          "question": "In which year did the Jallianwala Bagh massacre take place?",
+          "options": ["1917", "1919", "1921", "1923"],
+          "answer": "1919"
+        },
+        {
+          "question": "What is the smallest bone in the human body?",
+          "options": ["Femur", "Stapes", "Tibia", "Radius"],
+          "answer": "Stapes"
+        },
+        {
+          "question": "Where is the headquarters of the United Nations Organization (UNO) located?",
+          "options": ["Geneva", "New York", "Paris", "Vienna"],
+          "answer": "New York"
+        },
+        {
+          "question": "Who founded the 'Arya Samaj'?",
+          "options": ["Swami Vivekananda", "Raja Ram Mohan Roy", "Swami Dayanand Saraswati", "Jyotiba Phule"],
+          "answer": "Swami Dayanand Saraswati"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "difficulty": "Medium",
+      "questions": [
+        {
+          "question": "Who is known as the 'Iron Man of India'?",
+          "options": ["Gopal Krishna Gokhale", "Subhas Chandra Bose", "Sardar Vallabhbhai Patel", "Bal Gangadhar Tilak"],
+          "answer": "Sardar Vallabhbhai Patel"
+        },
+        {
+          "question": "Which is the longest river in the world?",
+          "options": ["Ganges", "Amazon", "Nile", "Yangtze"],
+          "answer": "Nile"
+        },
+        {
+          "question": "Light Year is a unit of what?",
+          "options": ["Time", "Speed", "Distance", "Intensity"],
+          "answer": "Distance"
+        },
+        {
+          "question": "Which of the following is the highest mountain peak in India?",
+          "options": ["Mount Everest", "Kanchenjunga", "Godwin Austen (K2)", "Nanda Devi"],
+          "answer": "Godwin Austen (K2)"
+        },
+        {
+          "question": "Who was the first female Prime Minister of India?",
+          "options": ["Pratibha Patil", "Sarojini Naidu", "Indira Gandhi", "Sushma Swaraj"],
+          "answer": "Indira Gandhi"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "difficulty": "Medium",
+      "questions": [
+        {
+          "question": "In Geography, where is the 'Great Barrier Reef' located?",
+          "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+          "answer": "Pacific Ocean"
+        },
+        {
+          "question": "In which year was the 'Quit India Movement' launched?",
+          "options": ["1930", "1940", "1942", "1947"],
+          "answer": "1942"
+        },
+        {
+          "question": "In the context of computers, what does CPU stand for?",
+          "options": ["Central Processing Unit", "Control Programming Unit", "Central Power Utility", "Computer Personal Unit"],
+          "answer": "Central Processing Unit"
+        },
+        {
+          "question": "Which gas is known as 'Laughing Gas'?",
+          "options": ["Methane", "Nitrous Oxide", "Carbon Dioxide", "Ozone"],
+          "answer": "Nitrous Oxide"
+        },
+        {
+          "question": "Which Article of the Indian Constitution deals with the 'Abolition of Untouchability'?",
+          "options": ["Article 14", "Article 17", "Article 19", "Article 21"],
+          "answer": "Article 17"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "difficulty": "Hard",
+      "questions": [
+        {
+          "question": "Which Indian state has the longest coastline?",
+          "options": ["Maharashtra", "Andhra Pradesh", "Gujarat", "Tamil Nadu"],
+          "answer": "Gujarat"
+        },
+        {
+          "question": "The 'Nobel Prize' is awarded in how many fields?",
+          "options": ["4", "5", "6", "7"],
+          "answer": "6"
+        },
+        {
+          "question": "Kalibangan, a major site of the Indus Valley Civilization, is located in which state?",
+          "options": ["Punjab", "Haryana", "Rajasthan", "Gujarat"],
+          "answer": "Rajasthan"
+        },
+        {
+          "question": "Which scientist formulated the 'Laws of Inheritance'?",
+          "options": ["Charles Darwin", "Gregor Mendel", "Louis Pasteur", "Albert Einstein"],
+          "answer": "Gregor Mendel"
+        },
+        {
+          "question": "The Partition of Bengal in 1905 took place during the period of which Viceroy?",
+          "options": ["Lord Minto", "Lord Hardinge", "Lord Curzon", "Lord Chelmsford"],
+          "answer": "Lord Curzon"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "difficulty": "Hard",
+      "questions": [
+        {
+          "question": "The 'Fundamental Duties' in the Indian Constitution are taken from the constitution of which country?",
+          "options": ["USA", "Russia (Soviet Union)", "Canada", "Ireland"],
+          "answer": "Russia (Soviet Union)"
+        },
+        {
+          "question": "Which metal is referred to as 'White Gold'?",
+          "options": ["Silver", "Platinum", "Nickel", "Palladium"],
+          "answer": "Platinum"
+        },
+        {
+          "question": "The Ozone Layer is found in which layer of the atmosphere?",
+          "options": ["Troposphere", "Stratosphere", "Mesosphere", "Ionosphere"],
+          "answer": "Stratosphere"
+        },
+        {
+          "question": "Which Sikh Guru founded the 'Khalsa Panth'?",
+          "options": ["Guru Nanak Dev", "Guru Gobind Singh", "Guru Arjan Dev", "Guru Tegh Bahadur"],
+          "answer": "Guru Gobind Singh"
+        },
+        {
+          "question": "Who established the 'Servants of India Society'?",
+          "options": ["Bal Gangadhar Tilak", "Gopal Krishna Gokhale", "Lala Lajpat Rai", "Bipin Chandra Pal"],
+          "answer": "Gopal Krishna Gokhale"
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "difficulty": "Advanced",
+      "questions": [
+        {
+          "question": "Which forest region is known as the 'Lungs of the Earth'?",
+          "options": ["Siberian Taiga", "Congo Basin Forest", "Amazon Rainforest", "Sundarbans"],
+          "answer": "Amazon Rainforest"
+        },
+        {
+          "question": "Who is the author of the play 'Mudrarakshasa'?",
+          "options": ["Kalidasa", "Vishakhadatta", "Bhasa", "Banabhatta"],
+          "answer": "Vishakhadatta"
+        },
+        {
+          "question": "Who discovered bacteria?",
+          "options": ["Robert Koch", "Louis Pasteur", "Carl Linnaeus", "Antonie van Leeuwenhoek"],
+          "answer": "Antonie van Leeuwenhoek"
+        },
+        {
+          "question": "When was the first National Emergency declared in India?",
+          "options": ["1962", "1965", "1971", "1975"],
+          "answer": "1962"
+        },
+        {
+          "question": "Which alloy is used in an electric heater?",
+          "options": ["Brass", "Nichrome", "Bronze", "Solder"],
+          "answer": "Nichrome"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "difficulty": "Advanced",
+      "questions": [
+        {
+          "question": "Where is the headquarters of the European Union (EU) located?",
+          "options": ["Paris", "Vienna", "Brussels", "Rome"],
+          "answer": "Brussels"
+        },
+        {
+          "question": "What is the chemical name of Vitamin B₁₂?",
+          "options": ["Thiamine", "Riboflavin", "Ascorbic Acid", "Cyanocobalamin"],
+          "answer": "Cyanocobalamin"
+        },
+        {
+          "question": "The reign of which Mughal ruler is called the 'Golden Age of Hindi Literature'?",
+          "options": ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"],
+          "answer": "Akbar"
+        },
+        {
+          "question": "The interior of the Earth is mainly divided into which three layers?",
+          "options": ["Mantle, Crust, Core", "Crust, Mantle, Core", "Asthenosphere, Crust, Mantle", "Crust, Lithosphere, Mantle"],
+          "answer": "Crust, Mantle, Core"
+        },
+        {
+          "question": "Who is considered the pioneer of 'Economic Nationalism' in India?",
+          "options": ["Dadabhai Naoroji", "Gopal Krishna Gokhale", "Romesh Chunder Dutt", "Pherozeshah Mehta"],
+          "answer": "Romesh Chunder Dutt"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "difficulty": "Expert",
+      "questions": [
+        {
+          "question": "Which is the 'First Carbon-Free State' in India?",
+          "options": ["Kerala", "Sikkim", "Himachal Pradesh", "Goa"],
+          "answer": "Himachal Pradesh"
+        },
+        {
+          "question": "Where is the International Court of Justice located?",
+          "options": ["New York", "The Hague", "London", "Paris"],
+          "answer": "The Hague"
+        },
+        {
+          "question": "Which is the only gas in the noble gas group that does not have 8 electrons in its outermost shell?",
+          "options": ["Neon", "Argon", "Helium", "Krypton"],
+          "answer": "Helium"
+        },
+        {
+          "question": "In Geography, the 'Volcanic Ring of Fire' is associated with which ocean?",
+          "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+          "answer": "Pacific Ocean"
+        },
+        {
+          "question": "In the Vedic period, 'Vitasta' was the ancient name of which river?",
+          "options": ["Indus", "Jhelum", "Chenab", "Ravi"],
+          "answer": "Jhelum"
+        }
+      ]
+    }
+  ]
+}

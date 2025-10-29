@@ -1,0 +1,315 @@
+{
+  "category": "Computer Awareness",
+  "levels": [
+    {
+      "level": 1,
+      "difficulty": "Easy",
+      "questions": [
+        {
+          "question": "What is called the Brain of the computer?",
+          "options": ["Monitor", "CPU", "Mouse", "Keyboard"],
+          "answer": "CPU"
+        },
+        {
+          "question": "How many bytes are there in 1 Kilobyte (KB)?",
+          "options": ["1000", "1024", "1048", "100"],
+          "answer": "1024"
+        },
+        {
+          "question": "What is the address of a website on the Internet called?",
+          "options": ["Protocol", "URL (Uniform Resource Locator)", "Domain", "IP Address"],
+          "answer": "URL (Uniform Resource Locator)"
+        },
+        {
+          "question": "What is unsolicited email called?",
+          "options": ["Worm", "Spam", "Virus", "Malware"],
+          "answer": "Spam"
+        },
+        {
+          "question": "Which device is used to enter data into a computer?",
+          "options": ["Printer", "Speaker", "Keyboard", "Monitor"],
+          "answer": "Keyboard"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "difficulty": "Easy",
+      "questions": [
+        {
+          "question": "What is the full form of RAM?",
+          "options": ["Read Access Memory", "Random Access Memory", "Read Only Memory", "Remote Access Mode"],
+          "answer": "Random Access Memory"
+        },
+        {
+          "question": "What is the process of starting up a computer called?",
+          "options": ["Saving", "Booting", "Loading", "Hot Swapping"],
+          "answer": "Booting"
+        },
+        {
+          "question": "What are the small graphical images visible on the computer screen called?",
+          "options": ["Pointers", "Widgets", "Icons", "Files"],
+          "answer": "Icons"
+        },
+        {
+          "question": "Which keyboard shortcut is typically used to copy a file?",
+          "options": ["Ctrl + V", "Ctrl + X", "Ctrl + S", "Ctrl + C"],
+          "answer": "Ctrl + C"
+        },
+        {
+          "question": "What is the smallest unit of data in a computer?",
+          "options": ["Byte", "Bit", "Nibble", "Megabyte (MB)"],
+          "answer": "Bit"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "difficulty": "Medium",
+      "questions": [
+        {
+          "question": "What type of memory is ROM (Read Only Memory)?",
+          "options": ["Volatile", "Non-Volatile", "Cache", "Secondary"],
+          "answer": "Non-Volatile"
+        },
+        {
+          "question": "MS Word is what type of software?",
+          "options": ["System Software", "Operating System", "Application Software", "Utility Software"],
+          "answer": "Application Software"
+        },
+        {
+          "question": "What is a link that connects web pages together called?",
+          "options": ["Website", "Web Server", "Hyperlink", "Browser"],
+          "answer": "Hyperlink"
+        },
+        {
+          "question": "The device that converts digital signals to analog signals and vice versa is the:",
+          "options": ["Switch", "Router", "Modem", "Hub"],
+          "answer": "Modem"
+        },
+        {
+          "question": "What is used to store and manage data?",
+          "options": ["Operating System", "Database", "Spreadsheet", "Antivirus"],
+          "answer": "Database"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "difficulty": "Medium",
+      "questions": [
+        {
+          "question": "What is the main purpose of compressing data in a computer?",
+          "options": ["To increase security", "To increase file size", "To save storage space", "To increase processing speed"],
+          "answer": "To save storage space"
+        },
+        {
+          "question": "What is the full form of HTTP?",
+          "options": ["Hyper Text Transfer Program", "Hyperlink Text Tool Protocol", "Hyper Text Transfer Protocol", "Hyperlink Tool Process"],
+          "answer": "Hyper Text Transfer Protocol"
+        },
+        {
+          "question": "A computer network limited to a single building or campus in a geographical area is a:",
+          "options": ["WAN", "MAN", "CAN", "LAN"],
+          "answer": "LAN"
+        },
+        {
+          "question": "Which keys are used to control the cursor?",
+          "options": ["Function Keys", "Toggle Keys", "Arrow Keys", "Control Keys"],
+          "answer": "Arrow Keys"
+        },
+        {
+          "question": "The set of programs that controls the basic operations of a computer is called the:",
+          "options": ["Application Software", "Compiler", "Operating System", "Utility Software"],
+          "answer": "Operating System"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "difficulty": "Medium",
+      "questions": [
+        {
+          "question": "In Microsoft Excel, what is used to perform calculations on data?",
+          "options": ["Tables", "Functions", "Charts", "Macros"],
+          "answer": "Functions"
+        },
+        {
+          "question": "How many bits are in an IP Address?",
+          "options": ["8 bits", "16 bits", "32 bits", "64 bits"],
+          "answer": "32 bits"
+        },
+        {
+          "question": "Which of the following is an Output Device?",
+          "options": ["Mouse", "Scanner", "Printer", "Keyboard"],
+          "answer": "Printer"
+        },
+        {
+          "question": "What is the software that allows a user to view web pages?",
+          "options": ["Web Server", "Operating System", "Internet", "Web Browser"],
+          "answer": "Web Browser"
+        },
+        {
+          "question": "In computer security, what is the main function of a Firewall?",
+          "options": ["Compressing files", "Filtering network access", "Removing viruses", "Encrypting data"],
+          "answer": "Filtering network access"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "difficulty": "Hard",
+      "questions": [
+        {
+          "question": "The process by which an Operating System manages memory is called:",
+          "options": ["Processing", "Device Management", "Memory Management", "File Management"],
+          "answer": "Memory Management"
+        },
+        {
+          "question": "What was the first commercially available Microprocessor?",
+          "options": ["Intel 8080", "Intel 4004", "Motorola 6800", "Intel Pentium"],
+          "answer": "Intel 4004"
+        },
+        {
+          "question": "In a computer system, where is the Cache Memory located?",
+          "options": ["On the Hard Disk Drive", "Between the CPU and Main Memory", "In the ROM", "On an external USB drive"],
+          "answer": "Between the CPU and Main Memory"
+        },
+        {
+          "question": "Which protocol is used for sending E-mail?",
+          "options": ["POP3", "FTP", "IMAP", "SMTP"],
+          "answer": "SMTP"
+        },
+        {
+          "question": "What was the first Electronic Digital Computer?",
+          "options": ["UNIVAC", "EDVAC", "ENIAC", "Mark I"],
+          "answer": "ENIAC"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "difficulty": "Hard",
+      "questions": [
+        {
+          "question": "A special type of software that helps a user detect, prevent, and remove viruses is called:",
+          "options": ["System Software", "Malware", "Antivirus", "Utility Software"],
+          "answer": "Antivirus"
+        },
+        {
+          "question": "The technique that allows running multiple programs simultaneously is:",
+          "options": ["Single Tasking", "Multitasking", "Multiprocessing", "Multithreading"],
+          "answer": "Multitasking"
+        },
+        {
+          "question": "Which memory is volatile and loses its data when the power is turned off?",
+          "options": ["Hard Disk", "CD-ROM", "ROM", "RAM"],
+          "answer": "RAM"
+        },
+        {
+          "question": "In networking, DNS is primarily used for what?",
+          "options": ["Data encryption", "Wireless connection", "Translating IP addresses to domain names", "File transfer"],
+          "answer": "Translating IP addresses to domain names"
+        },
+        {
+          "question": "Transistors began being used in which Generation of computers?",
+          "options": ["First Generation", "Second Generation", "Third Generation", "Fourth Generation"],
+          "answer": "Second Generation"
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "difficulty": "Advanced",
+      "questions": [
+        {
+          "question": "A piece of software that replicates itself and infects files or programs is a:",
+          "options": ["Trojan Horse", "Worm", "Virus", "Spyware"],
+          "answer": "Virus"
+        },
+        {
+          "question": "What is the process of receiving data from a web server called?",
+          "options": ["Uploading", "Sharing", "Downloading", "Browsing"],
+          "answer": "Downloading"
+        },
+        {
+          "question": "Which secondary storage device is used to permanently store data and programs in a computer?",
+          "options": ["RAM", "Cache Memory", "Hard Disk Drive (HDD)", "CPU"],
+          "answer": "Hard Disk Drive (HDD)"
+        },
+        {
+          "question": "Which device is necessary to connect a computer to the Internet?",
+          "options": ["Printer", "Joystick", "Modem", "Scanner"],
+          "answer": "Modem"
+        },
+        {
+          "question": "Which network protocol is essential for transmitting data over telephone lines?",
+          "options": ["TCP/IP", "FTP", "POP3", "PPP"],
+          "answer": "PPP"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "difficulty": "Advanced",
+      "questions": [
+        {
+          "question": "What is the full form of SQL, which is used in databases?",
+          "options": ["Simple Query Language", "Structured Query Language", "Sequential Query Logic", "Standard Query Link"],
+          "answer": "Structured Query Language"
+        },
+        {
+          "question": "Which part of the operating system stores all file names and their corresponding information?",
+          "options": ["Boot Sector", "RAM", "File Allocation Table (FAT)", "Processor"],
+          "answer": "File Allocation Table (FAT)"
+        },
+        {
+          "question": "What operation does the ALU perform in a computer?",
+          "options": ["Graphics processing", "Network communication", "Arithmetic and Logical Operations", "Memory management"],
+          "answer": "Arithmetic and Logical Operations"
+        },
+        {
+          "question": "The technology that allows a computer to read text and convert it into editable format is:",
+          "options": ["OMR", "MICR", "OCR", "QR Code"],
+          "answer": "OCR"
+        },
+        {
+          "question": "What is the set of rules for sending data over the Internet called?",
+          "options": ["Firewall", "Domain", "Protocol", "Website"],
+          "answer": "Protocol"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "difficulty": "Expert",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the 'Bootstrap Loader'?",
+          "options": ["To check the hardware", "To load the operating system", "To detect viruses", "To connect to the Internet"],
+          "answer": "To load the operating system"
+        },
+        {
+          "question": "Which technology was primarily used in 'Fifth Generation' computers?",
+          "options": ["Vacuum Tubes", "Transistors", "Microprocessors", "Artificial Intelligence (AI)"],
+          "answer": "Artificial Intelligence (AI)"
+        },
+        {
+          "question": "A specific error that is detected by the Compiler during compilation is a:",
+          "options": ["Logical Error", "Syntax Error", "Run-time Error", "Booting Error"],
+          "answer": "Syntax Error"
+        },
+        {
+          "question": "In networking, what is the primary purpose of TELNET?",
+          "options": ["Remote Login", "File Transfer", "Sending emails", "Printing"],
+          "answer": "Remote Login"
+        },
+        {
+          "question": "What is the use of two or more processors in a system called?",
+          "options": ["Single Processing", "Multitasking", "Multiprocessing", "Multithreading"],
+          "answer": "Multiprocessing"
+        }
+      ]
+    }
+  ]
+}

@@ -88,7 +88,7 @@ function startQuiz(category) {
 
   if (category === "random") {
     // Randomly pick any category
-    const categories = ["math", "science", "history"];
+    const categories = ["math", "science", "history","gk","banking","computer"];
     category = categories[Math.floor(Math.random() * categories.length)];
   }
 
