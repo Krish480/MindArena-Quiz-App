@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MindArena | Progress</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/custom.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body
+    class="min-h-screen bg-gradient-to-br from-black via-[#0B0C10] to-[#1F2833] text-gray-100 relative overflow-x-hidden">
+
+    <!-- Header -->
+    <header
+        class="fixed top-0 left-0 w-full backdrop-blur-lg bg-white/10 border-b border-cyan-400/20 z-20 flex items-center justify-between px-4 py-3 md:px-6 md:py-4">
+
+        <!-- Logo -->
+        <div class="flex items-center gap-3 flex-shrink-0">
+            <i class="fa-solid fa-brain text-2xl md:text-3xl text-cyan-400"></i>
+            <h1 class="text-xl md:text-2xl font-extrabold text-white animate-[glow_2s_ease-in-out_infinite_alternate]">
+                MindArena</h1>
+        </div>
+
+        <!-- Search Bar (Desktop Only) -->
+        <div class="hidden md:flex flex-1 justify-center px-8">
+            <div class="relative w-full max-w-md lg:max-w-lg xl:max-w-2xl">
+                <input type="text" placeholder="Search..." class="w-full h-11 py-2 pl-4 pr-12 rounded-full bg-gray-900/60 text-white border border-cyan-400/40 
+          focus:ring-2 focus:ring-cyan-400 outline-none transition-all duration-300 placeholder-gray-400">
+                <button type="submit"
+                    class="absolute right-4 top-1/2 -translate-y-1/2 text-cyan-400 text-lg hover:text-cyan-300 transition">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Navigation for desktop -->
+        <nav class="hidden md:flex items-center gap-10 mr-6 flex-shrink-0">
+            <a href="home.html" id="nav-home-desktop"
+                class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
+                <i class="fa-solid fa-house text-lg"></i>
+                <span class="text-sm mt-1">Home</span>
+            </a>
+
+            <a href="profile.html" id="nav-profile-desktop"
+                class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
+                <i class="fa-solid fa-user text-lg"></i>
+                <span class="text-sm mt-1">Profile</span>
+            </a>
+
+            <a href="progress.html" id="nav-progress-desktop"
+                class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
+                <i class="fa-solid fa-chart-line text-lg"></i>
+                <span class="text-sm mt-1">Progress</span>
+            </a>
+
+            <a href="achievements.html" id="nav-achievements-desktop"
+                class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
+                <i class="fa-solid fa-trophy text-lg"></i>
+                <span class="text-sm mt-1">Achieve</span>
+            </a>
+        </nav>
+
+        <!-- User Actions -->
+        <div class="flex items-center gap-4 md:gap-6 relative">
+            <!-- Notification -->
+            <div class="relative hidden sm:block">
+                <i class="fa-regular fa-bell text-lg md:text-xl hover:text-cyan-400 cursor-pointer"></i>
+                <span class="absolute top-0 right-0 w-2 h-2 bg-red-500 rounded-full border-2 border-gray-900"></span>
+            </div>
+
+            <!-- Mobile Search Icon -->
+            <button id="mobileSearchBtn" class="block md:hidden text-cyan-400 text-xl hover:text-cyan-300 transition">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <!-- User Avatar -->
+            <div id="userMenuBtn" class="relative cursor-pointer">
+                <img src="/assets/avtar.png" alt="User Avatar"
+                    class="w-9 h-9 md:w-10 md:h-10 rounded-full border-2 border-cyan-400 hover:border-cyan-300 transition">
+            </div>
+
+            <!-- User Dropdown -->
+            <div id="userDropdown"
+                class="absolute top-12 right-0 bg-gray-950 text-white rounded-xl shadow-lg w-52 hidden flex-col overflow-hidden border border-gray-700 z-50">
+
+                <div class="p-4 border-b border-gray-700">
+                    <h2 id="dropdownUserName" class="font-semibold text-lg">Guest User</h2>
+                    <p id="dropdownUserEmail" class="text-xs text-gray-400">guest@example.com</p>
+                </div>
+
+                <div id="loggedInOptions">
+                    <a href="profile.html" class="px-4 py-2 hover:bg-gray-700 flex items-center gap-2">
+                        <i class="fa-solid fa-user text-cyan-400"></i> View Profile
+                    </a>
+                    <a href="settings.html" class="px-4 py-2 hover:bg-gray-700 flex items-center gap-2">
+                        <i class="fa-solid fa-gear text-yellow-400"></i> Settings
+                    </a>
+                    <button id="logoutBtn"
+                        class="text-left w-full px-4 py-2 hover:bg-red-600/20 flex items-center gap-2 text-red-400">
+                        <i class="fa-solid fa-right-from-bracket"></i> Logout
+                    </button>
+                </div>
+
+                <!-- Guest view (shown when logged out) -->
+                <div id="guestOptions" class="hidden">
+                    <a href="login.html" class="px-4 py-2 hover:bg-cyan-600/20 text-cyan-400 flex items-center gap-2">
+                        <i class="fa-solid fa-right-to-bracket"></i> Login
+                    </a>
+                    <a href="register.html"
+                        class="px-4 py-2 hover:bg-cyan-600/20 text-cyan-400 flex items-center gap-2">
+                        <i class="fa-solid fa-user-plus"></i> Register
+                    </a>
+                </div>
+
+            </div>
+
+
+        </div>
+    </header>
+
+    <!-- Mobile Search Bar -->
+    <div id="mobileSearchBar"
+        class="hidden fixed top-[60px] left-0 w-full bg-gray-900/80 px-4 py-3 backdrop-blur-lg border-b border-cyan-400/30 z-10 animate-none">
+        <div class="relative">
+            <input type="text" placeholder="Search..." class="w-full h-10 py-2 pl-4 pr-10 rounded-full bg-gray-900/70 text-white border border-cyan-400/40 
+        focus:ring-2 focus:ring-cyan-400 outline-none transition-all duration-300 placeholder-gray-400">
+            <button type="submit"
+                class="absolute right-4 top-1/2 -translate-y-1/2 text-cyan-400 text-lg hover:text-cyan-300 transition">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Floating Glows -->
+    <div class="absolute w-96 h-96 bg-cyan-500/20 -top-16 -left-16 rounded-full blur-[180px] opacity-30 animate-pulse">
+    </div>
+    <div class="absolute w-72 h-72 bg-teal-400/20 bottom-0 right-0 rounded-full blur-[180px] opacity-30 animate-pulse">
+    </div>
+
+    <!-- Main Section -->
+    <main class="pt-20 pb-24 px-4 sm:px-8 md:px-16 lg:px-24 relative z-1">
+        <section
+            class="relative sm:max-w-5xl mx-auto bg-gradient-to-b from-[#0D1117]/80 to-[#0C0F13]/80 border border-cyan-400/20 rounded-3xl shadow-[0_0_35px_#00ffff30] backdrop-blur-2xl p-6 sm:p-10 md:p-12 fade-section">
+
+            <!-- Title -->
+            <h1
+                class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-center text-cyan-300 mb-8 mt-6 animate-[glow_2s_ease-in-out_infinite_alternate]">
+                Your Progress 📊
+            </h1>
+
+            <!-- XP Progress -->
+            <div id="xpSection" class="text-center mb-10 fade-section">
+                <p class="text-base sm:text-lg text-gray-300 mb-2">Current XP:
+                    <span id="xpValue" class="text-cyan-400 font-bold">0</span>
+                </p>
+                <div
+                    class="w-full bg-gray-800 h-3 sm:h-4 rounded-full overflow-hidden border border-cyan-400/30 shadow-inner">
+                    <div id="xpBar"
+                        class="h-full bg-gradient-to-r from-cyan-400 to-teal-300 rounded-full w-0 transition-all duration-700 shadow-[0_0_15px_#00ffff80]">
+                    </div>
+                </div>
+                <p id="levelText" class="text-xs sm:text-sm text-gray-400 mt-2">Loading
+                    level...</p>
+            </div>
+
+            <!-- Weekly Activity -->
+            <div class="mb-10 fade-section">
+                <h2 class="text-lg sm:text-2xl font-semibold text-cyan-300 mb-4 text-center sm:text-left">
+                    📅 Weekly Activity
+                </h2>
+                <div id="weeklyActivity" class="grid grid-cols-7 gap-2 sm:gap-3 text-center justify-items-center">
+                    <!-- JS will fill -->
+                </div>
+            </div>
+
+            <!-- Category Performance -->
+            <div class="mb-10 fade-section">
+                <h2 class="text-lg sm:text-2xl font-semibold text-cyan-300 mb-4 text-center sm:text-left">
+                    📚 Category Performance
+                </h2>
+                <div id="categoryPerformance" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
+                    <!-- JS will fill -->
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <div class="text-center mt-10 fade-section">
+                <h3 class="text-lg sm:text-2xl font-semibold text-cyan-300 mb-4">🏅
+                    Achievements</h3>
+                <div id="achievementList"
+                    class="flex flex-wrap justify-center gap-3 sm:gap-4 text-gray-300 text-sm sm:text-base">
+                    <p>No achievements yet. Keep playing!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (Mobile Only) -->
+    <footer
+        class="fixed bottom-0 left-0 w-full bg-white/10 backdrop-blur-lg border-t border-cyan-400/20 md:hidden flex justify-around items-center py-3 z-50">
+
+        <a href="home.html" id="nav-home"
+            class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
+            <i class="fa-solid fa-house text-lg"></i>
+            <span class="text-xs mt-1">Home</span>
+        </a>
+
+        <a href="profile.html" id="nav-profile"
+            class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
+            <i class="fa-solid fa-user text-lg"></i>
+            <span class="text-xs mt-1">Profile</span>
+        </a>
+
+        <a href="progress.html" id="nav-progress"
+            class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
+            <i class="fa-solid fa-chart-line text-lg"></i>
+            <span class="text-xs mt-1">Progress</span>
+        </a>
+
+        <a href="achievements.html" id="nav-achievements"
+            class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
+            <i class="fa-solid fa-trophy text-lg"></i>
+            <span class="text-xs mt-1">Achieve</span>
+        </a>
+
+    </footer>
+
+    <script src="js/home.js"></script>
+    <script src="/js/progress.js"></script>
+
+</body>
+
+</html>
