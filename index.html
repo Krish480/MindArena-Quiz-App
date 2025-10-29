@@ -6,54 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MindArena | Test Your Knowledge</title>
   <link rel="stylesheet" href="/dist/output.css">
-  <link rel="stylesheet" href="">
-  <link rel="icon" type="image/png" href="/src/custom.css">
-  <style>
-     /* Glow Animation */
-    @keyframes glow {
-      0%, 100% {
-        text-shadow: 0 0 12px #00ffff, 0 0 20px #0EA5E9;
-      }
-      50% {
-        text-shadow: 0 0 10px #06B6D4, 0 0 25px #38BDF8;
-      }
-    }
-    .glow-text {
-      animation: glow 2s ease-in-out infinite alternate;
-    }
-
-    /* Floating Shapes  */
-    @keyframes float {
-      0% { transform: translateY(0px) translateX(0px); }
-      50% { transform: translateY(-20px) translateX(15px); }
-      100% { transform: translateY(0px) translateX(0px); }
-    }
-    .floating-shape {
-      position: absolute;
-      border-radius: 50%;
-      opacity: 0.25;
-      filter: blur(140px);
-      animation: float 6s ease-in-out infinite alternate;
-    }
-
-    /*  Neon Button  */
-    .neon-btn {
-      background: linear-gradient(to right, #0EA5E9, #06B6D4);
-      box-shadow: 0 0 25px #06B6D4;
-      color: #fff;
-      transition: all 0.3s ease;
-    }
-    .neon-btn:hover {
-      box-shadow: 0 0 20px #22D3EE;
-      transform: scale(1.05);
-    }
-
-    /*  Responsive Image  */
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-  </style>
+  <link rel="stylesheet" href="/src/custom.css">
+  <!-- <link rel="icon" type="image/png" href="/src/custom.css"> -->
 </head>
 
 <body class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-[#0B0C10] to-[#1F2833] text-white overflow-hidden relative">
