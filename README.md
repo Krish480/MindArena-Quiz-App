@@ -42,11 +42,6 @@ This project involves designing and implementing an **interactive quiz** using H
 - Store quiz questions and correct answers in a JavaScript array or object.  
 - Dynamically populate the quiz using this data.
 
-### Additional Features (Optional)
-- Timer for each question.  
-- Images or multimedia in questions.  
-- Hints or explanations for correct answers.
-
 ## Deliverables
 - HTML file with quiz layout and questions.  
 - CSS file for styling.  
