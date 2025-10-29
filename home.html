@@ -42,21 +42,28 @@
       </div>
     </div>
 
-    <!-- Navigation (Desktop Only) -->
+    <!-- Navigation for desktop -->
     <nav class="hidden md:flex items-center gap-10 mr-6 flex-shrink-0">
-      <a href="#" class="flex flex-col items-center hover:text-cyan-400 transition">
+      <a href="home.html" id="nav-home-desktop"
+        class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
         <i class="fa-solid fa-house text-lg"></i>
         <span class="text-sm mt-1">Home</span>
       </a>
-      <a href="profile.html" class="flex flex-col items-center hover:text-cyan-400 transition">
+
+      <a href="profile.html" id="nav-profile-desktop"
+        class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
         <i class="fa-solid fa-user text-lg"></i>
         <span class="text-sm mt-1">Profile</span>
       </a>
-      <a href="#" class="flex flex-col items-center hover:text-cyan-400 transition">
+
+      <a href="progress.html" id="nav-progress-desktop"
+        class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
         <i class="fa-solid fa-chart-line text-lg"></i>
         <span class="text-sm mt-1">Progress</span>
       </a>
-      <a href="#" class="flex flex-col items-center hover:text-cyan-400 transition">
+
+      <a href="achievements.html" id="nav-achievements-desktop"
+        class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
         <i class="fa-solid fa-trophy text-lg"></i>
         <span class="text-sm mt-1">Achieve</span>
       </a>
@@ -77,27 +84,45 @@
 
       <!-- User Avatar -->
       <div id="userMenuBtn" class="relative cursor-pointer">
-        <img src="/assets/user-avatar.png" alt="User Avatar"
+        <img src="/assets/avtar.png" alt="User Avatar"
           class="w-9 h-9 md:w-10 md:h-10 rounded-full border-2 border-cyan-400 hover:border-cyan-300 transition">
       </div>
 
-      <!-- Dropdown -->
+      <!-- User Dropdown -->
       <div id="userDropdown"
-        class="absolute top-12 right-0 bg-gray-950 text-white rounded-xl shadow-lg w-52 hidden flex-col overflow-hidden border border-gray-700">
+        class="absolute top-12 right-0 bg-gray-950 text-white rounded-xl shadow-lg w-52 hidden flex-col overflow-hidden border border-gray-700 z-50">
+
         <div class="p-4 border-b border-gray-700">
-          <h2 class="font-semibold text-lg">Krish Pandey</h2>
-          <p class="text-xs text-gray-400">krishpandey1866@gmail.com</p>
+          <h2 id="dropdownUserName" class="font-semibold text-lg">Guest User</h2>
+          <p id="dropdownUserEmail" class="text-xs text-gray-400">guest@example.com</p>
         </div>
-        <a href="#" class="px-4 py-2 hover:bg-gray-700 flex items-center gap-2">
-          <i class="fa-solid fa-user"></i> View Profile
-        </a>
-        <a href="#" class="px-4 py-2 hover:bg-gray-700 flex items-center gap-2">
-          <i class="fa-solid fa-gear"></i> Settings
-        </a>
-        <a href="#" class="px-4 py-2 hover:bg-gray-700 flex items-center gap-2">
-          <i class="fa-solid fa-right-from-bracket"></i> Logout
-        </a>
+
+        <div id="loggedInOptions">
+          <a href="profile.html" class="px-4 py-2 hover:bg-gray-700 flex items-center gap-2">
+            <i class="fa-solid fa-user text-cyan-400"></i> View Profile
+          </a>
+          <a href="settings.html" class="px-4 py-2 hover:bg-gray-700 flex items-center gap-2">
+            <i class="fa-solid fa-gear text-yellow-400"></i> Settings
+          </a>
+          <button id="logoutBtn"
+            class="text-left w-full px-4 py-2 hover:bg-red-600/20 flex items-center gap-2 text-red-400">
+            <i class="fa-solid fa-right-from-bracket"></i> Logout
+          </button>
+        </div>
+
+        <!-- Guest view (shown when logged out) -->
+        <div id="guestOptions" class="hidden">
+          <a href="login.html" class="px-4 py-2 hover:bg-cyan-600/20 text-cyan-400 flex items-center gap-2">
+            <i class="fa-solid fa-right-to-bracket"></i> Login
+          </a>
+          <a href="register.html" class="px-4 py-2 hover:bg-cyan-600/20 text-cyan-400 flex items-center gap-2">
+            <i class="fa-solid fa-user-plus"></i> Register
+          </a>
+        </div>
+
       </div>
+
+
     </div>
   </header>
 
@@ -125,36 +150,45 @@
         Challenge your brain, unlock achievements, and climb the leaderboard.
         Are you ready to prove your skills?
       </p>
-      <button
+      <button onclick="startQuiz('random')"
         class="mt-8 px-8 sm:px-10 md:px-12 py-3 sm:py-4 bg-cyan-500 hover:bg-cyan-400 text-black font-semibold text-base sm:text-lg rounded-full transition-all duration-300 hover:scale-105 shadow-[0_0_25px_#00ffff]/50">
         Start Challenge
       </button>
+
     </section>
 
-    <!-- 2️ Categories Section -->
+    <!-- 2 Categories Section -->
     <section>
       <h3 class="text-2xl sm:text-3xl font-bold mb-10 text-cyan-400 text-center">Explore Categories</h3>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10 text-center">
+
+        <!-- Mathematics -->
         <div
-          class="bg-white/5 border border-cyan-400/20 rounded-2xl p-6 sm:p-8 md:p-10 text-center hover:scale-105 transition duration-300 hover:bg-cyan-400/10">
+          class="bg-white/5 border border-cyan-400/20 rounded-2xl p-6 sm:p-8 md:p-10 text-center hover:scale-105 transition duration-300 hover:bg-cyan-400/10 cursor-pointer"
+          onclick="openLevel('math')">
           <img src="/assets/math.png" alt="Math" class="w-30 sm:w-24 md:w-38 mx-auto mb-4 md:mb-6">
           <h4 class="text-lg sm:text-xl md:text-2xl font-semibold text-cyan-400">Mathematics</h4>
           <p class="text-gray-400 text-xs sm:text-sm md:text-base mt-2">Sharpen your logic & problem-solving skills.</p>
         </div>
 
+        <!-- Science -->
         <div
-          class="bg-white/5 border border-cyan-400/20 rounded-2xl p-6 sm:p-8 md:p-10 text-center hover:scale-105 transition duration-300 hover:bg-cyan-400/10">
+          class="bg-white/5 border border-cyan-400/20 rounded-2xl p-6 sm:p-8 md:p-10 text-center hover:scale-105 transition duration-300 hover:bg-cyan-400/10 cursor-pointer"
+          onclick="openLevel('science')">
           <img src="/assets/science.png" alt="Science" class="w-30 sm:w-24 md:w-38 mx-auto mb-4 md:mb-6">
           <h4 class="text-lg sm:text-xl md:text-2xl font-semibold text-cyan-400">Science</h4>
           <p class="text-gray-400 text-xs sm:text-sm md:text-base mt-2">Discover the mysteries of the universe.</p>
         </div>
 
+        <!-- History -->
         <div
-          class="bg-white/5 border border-cyan-400/20 rounded-2xl p-6 sm:p-8 md:p-10 text-center hover:scale-105 transition duration-300 hover:bg-cyan-400/10">
+          class="bg-white/5 border border-cyan-400/20 rounded-2xl p-6 sm:p-8 md:p-10 text-center hover:scale-105 transition duration-300 hover:bg-cyan-400/10 cursor-pointer"
+          onclick="openLevel('history')">
           <img src="/assets/history.png" alt="History" class="w-30 sm:w-24 md:w-38 mx-auto mb-4 md:mb-6">
           <h4 class="text-lg sm:text-xl md:text-2xl font-semibold text-cyan-400">History</h4>
           <p class="text-gray-400 text-xs sm:text-sm md:text-base mt-2">Travel through time and test your memory.</p>
         </div>
+
       </div>
     </section>
 
@@ -220,18 +254,18 @@
           </thead>
           <tbody>
             <tr class="hover:bg-cyan-400/10">
-              <td class="py-3 px-4">1</td>
-              <td class="py-3 px-4">Krish Pandey</td>
+              <td class="py-3 px-4 text-lg">1 🥇</td>
+              <td class="py-3 px-4">Tony Stark</td>
               <td class="py-3 px-4">480</td>
             </tr>
             <tr class="hover:bg-cyan-400/10">
-              <td class="py-3 px-4">2</td>
-              <td class="py-3 px-4">Aman Suryawanshi</td>
+              <td class="py-3 px-4 text-lg">2 🥈</td>
+              <td class="py-3 px-4">Steve Roggers</td>
               <td class="py-3 px-4">440</td>
             </tr>
             <tr class="hover:bg-cyan-400/10">
-              <td class="py-3 px-4">3</td>
-              <td class="py-3 px-4">Priya Sharma</td>
+              <td class="py-3 px-4 text-lg">3 🥉</td>
+              <td class="py-3 px-4">Natasha Romanoff</td>
               <td class="py-3 px-4">390</td>
             </tr>
           </tbody>
@@ -239,18 +273,19 @@
       </div>
     </section>
 
-    <!-- 6️ Daily Challenge -->
+    <!-- 6 Daily Challenge -->
     <section class="text-center">
       <div
         class="bg-gradient-to-r from-cyan-900/40 to-gray-900/40 border border-cyan-400/30 rounded-2xl p-6 sm:p-8 md:p-10 shadow-xl max-w-2xl mx-auto">
         <h3 class="text-2xl sm:text-3xl font-bold text-cyan-300 mb-3">⚡ Daily Challenge</h3>
         <p class="text-gray-400 text-sm sm:text-base mb-4">Test your knowledge daily and earn XP!</p>
-        <button
+        <button onclick="startDailyChallenge()"
           class="px-6 sm:px-8 py-2 sm:py-3 bg-cyan-500 hover:bg-cyan-400 text-black font-semibold rounded-full transition-all duration-300 hover:scale-105">
           Take Today’s Quiz
         </button>
       </div>
     </section>
+
 
     <!-- 7️ Community Section -->
     <section class="text-center">
@@ -270,20 +305,33 @@
 
   <!-- Footer (Mobile Only) -->
   <footer
-    class="fixed bottom-0 left-0 w-full bg-white/10 backdrop-blur-lg border-t border-cyan-400/20 md:hidden flex justify-around items-center py-3">
-    <a href="#" class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
-      <i class="fa-solid fa-house text-lg"></i><span class="text-xs mt-1">Home</span>
-    </a href="profile.html">
-    <div class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
-      <i class="fa-solid fa-user text-lg"></i><span class="text-xs mt-1">Profile</span>
-    </a href="#">
-    <a href="#" class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
-      <i class="fa-solid fa-chart-line text-lg"></i><span class="text-xs mt-1">Progress</span>
-    </a href="#">
-    <a href="#" class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
-      <i class="fa-solid fa-trophy text-lg"></i><span class="text-xs mt-1">Achieve</span>
-    </a href="#">
+    class="fixed bottom-0 left-0 w-full bg-white/10 backdrop-blur-lg border-t border-cyan-400/20 md:hidden flex justify-around items-center py-3 z-50">
+
+    <a href="home.html" id="nav-home" class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
+      <i class="fa-solid fa-house text-lg"></i>
+      <span class="text-xs mt-1">Home</span>
+    </a>
+
+    <a href="profile.html" id="nav-profile"
+      class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
+      <i class="fa-solid fa-user text-lg"></i>
+      <span class="text-xs mt-1">Profile</span>
+    </a>
+
+    <a href="progress.html" id="nav-progress"
+      class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
+      <i class="fa-solid fa-chart-line text-lg"></i>
+      <span class="text-xs mt-1">Progress</span>
+    </a>
+
+    <a href="achievements.html" id="nav-achievements"
+      class="flex flex-col items-center text-gray-400 hover:text-cyan-400 transition">
+      <i class="fa-solid fa-trophy text-lg"></i>
+      <span class="text-xs mt-1">Achieve</span>
+    </a>
+
   </footer>
+
 
   <script src="js/home.js"></script>
 
