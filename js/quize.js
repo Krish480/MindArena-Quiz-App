@@ -8,7 +8,17 @@ async function loadQuiz() {
   const category = params.get("category") || "mathematics";
   const level = parseInt(params.get("level")) || 1;
 
-  const response = await fetch(`/data/${category.toLowerCase()}.json`);
+  // ✅ Load selected language from settings
+  const userSettings = JSON.parse(localStorage.getItem("userSettings")) || {};
+  const lang = userSettings.language || "en";
+
+  // File naming logic
+  const fileName = lang === "hi"
+    ? `${category.toLowerCase()}_hi.json`
+    : `${category.toLowerCase()}.json`;
+
+  const response = await fetch(`/data/${fileName}`);
+
   const data = await response.json();
   quizData = data.levels.find((l) => l.level === level);
 
@@ -430,8 +440,13 @@ function stopConfetti() {
   document.querySelectorAll(".fixed.inset-0.overflow-hidden").forEach(e => e.remove());
 }
 
-//  SOUND SYSTEM
 function playSound(type) {
+  // 🔈 Sound setting from localStorage
+  const userSettings = JSON.parse(localStorage.getItem("userSettings")) || {};
+  const soundSetting = userSettings.sound ? "on" : "off";
+
+  if (soundSetting === "off") return; // Sound muted
+
   const sounds = {
     correct: "/assets/sounds/correct.mp3",
     wrong: "/assets/sounds/wrong.mp3",
@@ -439,10 +454,12 @@ function playSound(type) {
     fail: "/assets/sounds/fail.mp3",
     levelup: "/assets/sounds/level-up.mp3"
   };
+
   const audio = new Audio(sounds[type]);
   audio.volume = 0.5;
   audio.play().catch(() => { });
 }
+
 
 //  TOAST (bottom)
 function showToast(message, isError = false) {
@@ -469,5 +486,12 @@ style.innerHTML = `
 .animate-slideUp { animation: slideUp 0.5s ease-out forwards; }
 `;
 document.head.appendChild(style);
+
+// Apply saved font size
+const savedFont = localStorage.getItem("fontSize");
+if (savedFont) {
+  document.body.classList.add(savedFont);
+}
+
 
 loadQuiz();
