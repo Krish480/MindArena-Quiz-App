@@ -1,0 +1,115 @@
+{
+  "category": "History",
+  "levels": [
+    {
+      "level": 1,
+      "difficulty": "Easy",
+      "questions": [
+        { "question": "Who was the first President of the United States?", "options": ["Lincoln", "Washington", "Jefferson", "Adams"], "answer": "Washington" },
+        { "question": "Who was the first Emperor of India under the Mauryan dynasty?", "options": ["Ashoka", "Chandragupta Maurya", "Bindusara", "Samudragupta"], "answer": "Chandragupta Maurya" },
+        { "question": "In which year did India get independence?", "options": ["1945", "1946", "1947", "1948"], "answer": "1947" },
+        { "question": "What was the capital of the Mughal Empire?", "options": ["Delhi", "Agra", "Lahore", "Kabul"], "answer": "Agra" },
+        { "question": "Who built the Taj Mahal?", "options": ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"], "answer": "Shah Jahan" }
+      ]
+    },
+    {
+      "level": 2,
+      "difficulty": "Easy",
+      "questions": [
+        { "question": "Who discovered America in 1492?", "options": ["Vasco da Gama", "Christopher Columbus", "Magellan", "Marco Polo"], "answer": "Christopher Columbus" },
+        { "question": "Which freedom fighter is known as 'Netaji'?", "options": ["Gandhi", "Bhagat Singh", "Subhas Chandra Bose", "Nehru"], "answer": "Subhas Chandra Bose" },
+        { "question": "Who was the first Prime Minister of independent India?", "options": ["Nehru", "Gandhi", "Patel", "Ambedkar"], "answer": "Nehru" },
+        { "question": "The Great Wall of China was built to protect from which group?", "options": ["Romans", "Mongols", "Vikings", "Greeks"], "answer": "Mongols" },
+        { "question": "Who was known as the 'Iron Man of India'?", "options": ["Nehru", "Patel", "Gandhi", "Tilak"], "answer": "Patel" }
+      ]
+    },
+    {
+      "level": 3,
+      "difficulty": "Medium",
+      "questions": [
+        { "question": "Which war ended with the Treaty of Versailles?", "options": ["WWI", "WWII", "Cold War", "Civil War"], "answer": "WWI" },
+        { "question": "Who was the founder of the Gupta Empire?", "options": ["Chandragupta I", "Samudragupta", "Chandragupta II", "Ashoka"], "answer": "Chandragupta I" },
+        { "question": "When did World War II end?", "options": ["1942", "1945", "1948", "1950"], "answer": "1945" },
+        { "question": "Which country gifted the Statue of Liberty to the USA?", "options": ["France", "Germany", "Italy", "Spain"], "answer": "France" },
+        { "question": "Who led the Salt March in India?", "options": ["Nehru", "Patel", "Gandhi", "Tilak"], "answer": "Gandhi" }
+      ]
+    },
+    {
+      "level": 4,
+      "difficulty": "Medium",
+      "questions": [
+        { "question": "Who wrote the Indian National Anthem?", "options": ["Tagore", "Sarojini Naidu", "Aurobindo", "Bankim Chandra Chatterjee"], "answer": "Tagore" },
+        { "question": "Who was the first woman ruler of Delhi?", "options": ["Razia Sultana", "Noor Jahan", "Rani Laxmibai", "Indira Gandhi"], "answer": "Razia Sultana" },
+        { "question": "In which year did the Revolt of 1857 take place?", "options": ["1847", "1857", "1867", "1877"], "answer": "1857" },
+        { "question": "What was the ancient name of Patna?", "options": ["Pataliputra", "Vaishali", "Taxila", "Kushinagar"], "answer": "Pataliputra" },
+        { "question": "Who introduced 'Din-i-Ilahi'?", "options": ["Akbar", "Babur", "Aurangzeb", "Shah Jahan"], "answer": "Akbar" }
+      ]
+    },
+    {
+      "level": 5,
+      "difficulty": "Medium",
+      "questions": [
+        { "question": "Which empire was known for its rock-cut caves at Ajanta and Ellora?", "options": ["Maurya", "Gupta", "Satavahana", "Chalukya"], "answer": "Gupta" },
+        { "question": "Who was known as the Napoleon of India?", "options": ["Samudragupta", "Ashoka", "Harsha", "Raja Raja Chola"], "answer": "Samudragupta" },
+        { "question": "Which movement did Gandhiji start in 1942?", "options": ["Non-Cooperation", "Quit India", "Civil Disobedience", "Dandi March"], "answer": "Quit India" },
+        { "question": "Who wrote 'Discovery of India'?", "options": ["Gandhi", "Nehru", "Patel", "Ambedkar"], "answer": "Nehru" },
+        { "question": "Who founded the Indian National Congress?", "options": ["W.C. Bonnerjee", "Tilak", "Dadabhai Naoroji", "Gokhale"], "answer": "W.C. Bonnerjee" }
+      ]
+    },
+    {
+      "level": 6,
+      "difficulty": "Hard",
+      "questions": [
+        { "question": "Who was the last Governor-General of independent India?", "options": ["Rajagopalachari", "Mountbatten", "Curzon", "Wavell"], "answer": "Rajagopalachari" },
+        { "question": "Who composed 'Vande Mataram'?", "options": ["Tagore", "Bankim Chandra Chatterjee", "Aurobindo", "Naidu"], "answer": "Bankim Chandra Chatterjee" },
+        { "question": "Which battle established British rule in India?", "options": ["Plassey", "Buxar", "Panipat", "Haldighati"], "answer": "Plassey" },
+        { "question": "Who was the first Mughal Emperor?", "options": ["Babur", "Humayun", "Akbar", "Aurangzeb"], "answer": "Babur" },
+        { "question": "Where did Buddha attain enlightenment?", "options": ["Lumbini", "Bodh Gaya", "Sarnath", "Kushinagar"], "answer": "Bodh Gaya" }
+      ]
+    },
+    {
+      "level": 7,
+      "difficulty": "Hard",
+      "questions": [
+        { "question": "Who founded the Mauryan Empire?", "options": ["Ashoka", "Bindusara", "Chandragupta Maurya", "Bimbisara"], "answer": "Chandragupta Maurya" },
+        { "question": "Which dynasty built the Khajuraho temples?", "options": ["Chola", "Pallava", "Chandela", "Gupta"], "answer": "Chandela" },
+        { "question": "Who was the founder of the Mughal dynasty?", "options": ["Akbar", "Babur", "Humayun", "Sher Shah"], "answer": "Babur" },
+        { "question": "Who was the leader of the Revolt of 1857 in Kanpur?", "options": ["Tantia Tope", "Nana Sahib", "Laxmibai", "Mangal Pandey"], "answer": "Nana Sahib" },
+        { "question": "Who introduced Persian as the official language of India?", "options": ["Akbar", "Babur", "Balban", "Alauddin Khilji"], "answer": "Alauddin Khilji" }
+      ]
+    },
+    {
+      "level": 8,
+      "difficulty": "Advanced",
+      "questions": [
+        { "question": "Who was the British PM during India’s independence?", "options": ["Winston Churchill", "Clement Attlee", "Neville Chamberlain", "Harold Wilson"], "answer": "Clement Attlee" },
+        { "question": "Where was Mahatma Gandhi born?", "options": ["Porbandar", "Ahmedabad", "Surat", "Rajkot"], "answer": "Porbandar" },
+        { "question": "Who was known as the 'Light of Asia'?", "options": ["Ashoka", "Buddha", "Vivekananda", "Nehru"], "answer": "Buddha" },
+        { "question": "Who built the Qutub Minar?", "options": ["Qutub-ud-din Aibak", "Iltutmish", "Alauddin Khilji", "Firoz Shah Tughlaq"], "answer": "Qutub-ud-din Aibak" },
+        { "question": "Which dynasty ruled over South India during the Sangam Age?", "options": ["Pallavas", "Cholas", "Pandyas", "Cheras"], "answer": "Pandyas" }
+      ]
+    },
+    {
+      "level": 9,
+      "difficulty": "Advanced",
+      "questions": [
+        { "question": "Who founded the Chola dynasty?", "options": ["Vijayalaya Chola", "Rajaraja Chola", "Kulothunga Chola", "Karikala Chola"], "answer": "Vijayalaya Chola" },
+        { "question": "When did India become a republic?", "options": ["1947", "1948", "1950", "1952"], "answer": "1950" },
+        { "question": "Who was the first woman Prime Minister of India?", "options": ["Sarojini Naidu", "Indira Gandhi", "Razia Sultana", "Pratibha Patil"], "answer": "Indira Gandhi" },
+        { "question": "Who introduced the Mansabdari system?", "options": ["Akbar", "Aurangzeb", "Humayun", "Babur"], "answer": "Akbar" },
+        { "question": "Where was the First Battle of Panipat fought?", "options": ["1526", "1556", "1761", "1857"], "answer": "1526" }
+      ]
+    },
+    {
+      "level": 10,
+      "difficulty": "Expert",
+      "questions": [
+        { "question": "Who discovered the sea route to India?", "options": ["Columbus", "Magellan", "Vasco da Gama", "Cook"], "answer": "Vasco da Gama" },
+        { "question": "Who was the first Governor-General of India?", "options": ["Warren Hastings", "Cornwallis", "Curzon", "Mountbatten"], "answer": "Warren Hastings" },
+        { "question": "Who was the last Mughal Emperor?", "options": ["Akbar II", "Bahadur Shah I", "Bahadur Shah Zafar", "Aurangzeb"], "answer": "Bahadur Shah Zafar" },
+        { "question": "Which city was known as Bombay before independence?", "options": ["Mumbai", "Pune", "Chennai", "Surat"], "answer": "Mumbai" },
+        { "question": "Who was called the ‘Father of the Indian Constitution’?", "options": ["Gandhi", "Ambedkar", "Nehru", "Rajendra Prasad"], "answer": "Ambedkar" }
+      ]
+    }
+  ]
+}

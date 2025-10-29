@@ -1,0 +1,24 @@
+{
+  "xp": 1280,
+  "level": 5,
+  "weekly_activity": {
+    "Mon": 80,
+    "Tue": 60,
+    "Wed": 90,
+    "Thu": 70,
+    "Fri": 100,
+    "Sat": 40,
+    "Sun": 50
+  },
+  "categories": [
+    { "name": "Mathematics", "accuracy": 80 },
+    { "name": "Science", "accuracy": 60 },
+    { "name": "History", "accuracy": 66 }
+  ],
+  "achievements": [
+    "Quiz Master",
+    "Fast Learner",
+    "Brainiac",
+    "Daily Streak 7+"
+  ]
+}

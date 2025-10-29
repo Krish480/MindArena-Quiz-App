@@ -1,0 +1,115 @@
+{
+  "category": "Mathematics",
+  "levels": [
+    {
+      "level": 1,
+      "difficulty": "Easy",
+      "questions": [
+        { "question": "If you buy 2 pencils for ₹5, how much for 10 pencils?", "options": ["₹20", "₹25", "₹30", "₹35"], "answer": "₹25" },
+        { "question": "What comes next: 2, 4, 6, 8, ?", "options": ["9", "10", "12", "14"], "answer": "10" },
+        { "question": "What is half of 100?", "options": ["25", "40", "50", "60"], "answer": "50" },
+        { "question": "A clock shows 3:00. What is the angle between the hands?", "options": ["60°", "90°", "120°", "150°"], "answer": "90°" },
+        { "question": "Which shape has 4 equal sides?", "options": ["Rectangle", "Square", "Triangle", "Pentagon"], "answer": "Square" }
+      ]
+    },
+    {
+      "level": 2,
+      "difficulty": "Easy",
+      "questions": [
+        { "question": "How many sides does a hexagon have?", "options": ["5", "6", "7", "8"], "answer": "6" },
+        { "question": "If 1 mango = ₹10, how many for ₹70?", "options": ["6", "7", "8", "9"], "answer": "7" },
+        { "question": "What is 9 × 9?", "options": ["81", "72", "91", "99"], "answer": "81" },
+        { "question": "The sum of angles in a triangle is:", "options": ["90°", "120°", "180°", "360°"], "answer": "180°" },
+        { "question": "What is 1/2 + 1/4?", "options": ["1/6", "3/4", "1/8", "2/3"], "answer": "3/4" }
+      ]
+    },
+    {
+      "level": 3,
+      "difficulty": "Medium",
+      "questions": [
+        { "question": "A pizza has 8 slices. You eat 3. What fraction remains?", "options": ["5/8", "3/8", "1/2", "2/8"], "answer": "5/8" },
+        { "question": "What is the next number: 1, 1, 2, 3, 5, ?", "options": ["7", "8", "9", "10"], "answer": "8" },
+        { "question": "If speed = distance/time, what is time?", "options": ["speed × distance", "distance/speed", "speed + distance", "distance × speed"], "answer": "distance/speed" },
+        { "question": "How many minutes in 1/4 of an hour?", "options": ["10", "15", "20", "30"], "answer": "15" },
+        { "question": "Which is greater: 0.75 or 3/4?", "options": ["0.75", "3/4", "Equal", "None"], "answer": "Equal" }
+      ]
+    },
+    {
+      "level": 4,
+      "difficulty": "Medium",
+      "questions": [
+        { "question": "If x + 8 = 20, what is x?", "options": ["10", "11", "12", "13"], "answer": "12" },
+        { "question": "What is the area of a rectangle (5 × 8)?", "options": ["30", "35", "40", "45"], "answer": "40" },
+        { "question": "Simplify: (10 + 2) × 3", "options": ["30", "32", "36", "40"], "answer": "36" },
+        { "question": "What is 15% of 200?", "options": ["20", "25", "30", "35"], "answer": "30" },
+        { "question": "If 12 pens = ₹60, what’s the cost of 5 pens?", "options": ["₹20", "₹22", "₹25", "₹30"], "answer": "₹25" }
+      ]
+    },
+    {
+      "level": 5,
+      "difficulty": "Medium",
+      "questions": [
+        { "question": "If a train travels 60 km in 1.5 hours, speed = ?", "options": ["30", "40", "45", "50"], "answer": "40" },
+        { "question": "Simplify: (6 + 4)² ÷ 4", "options": ["20", "25", "30", "40"], "answer": "25" },
+        { "question": "Find the missing term: 5, 10, 20, 40, ?", "options": ["60", "70", "80", "90"], "answer": "80" },
+        { "question": "How many centimeters in 2.5 meters?", "options": ["150", "200", "250", "300"], "answer": "250" },
+        { "question": "If radius = 7, find area of circle (π=3.14)", "options": ["120", "140", "150", "154"], "answer": "154" }
+      ]
+    },
+    {
+      "level": 6,
+      "difficulty": "Hard",
+      "questions": [
+        { "question": "Solve: 3x = 27", "options": ["7", "8", "9", "10"], "answer": "9" },
+        { "question": "Simplify: 2(4 + 3²)", "options": ["18", "20", "22", "24"], "answer": "22" },
+        { "question": "If a car runs at 60 km/h, how long for 150 km?", "options": ["1 hr", "2 hrs", "2.5 hrs", "3 hrs"], "answer": "2.5 hrs" },
+        { "question": "Find average of 8, 10, 12, 14", "options": ["10", "11", "12", "13"], "answer": "11" },
+        { "question": "Solve: 5x - 10 = 15", "options": ["3", "4", "5", "6"], "answer": "5" }
+      ]
+    },
+    {
+      "level": 7,
+      "difficulty": "Hard",
+      "questions": [
+        { "question": "Find: (7² + 24²)½", "options": ["23", "24", "25", "26"], "answer": "25" },
+        { "question": "What is the probability of getting heads in one coin toss?", "options": ["0", "0.25", "0.5", "1"], "answer": "0.5" },
+        { "question": "Find value: √81 + √49", "options": ["12", "13", "14", "15"], "answer": "15" },
+        { "question": "What is 1/3 of 1/2?", "options": ["1/3", "1/6", "2/3", "3/4"], "answer": "1/6" },
+        { "question": "If a = 5, b = 2, find 3a - 2b", "options": ["10", "11", "13", "15"], "answer": "11" }
+      ]
+    },
+    {
+      "level": 8,
+      "difficulty": "Advanced",
+      "questions": [
+        { "question": "Simplify: (10² - 4²)/2", "options": ["20", "24", "30", "32"], "answer": "24" },
+        { "question": "Find value: (2³ + 3²)", "options": ["13", "14", "15", "17"], "answer": "17" },
+        { "question": "How many prime numbers between 10 and 30?", "options": ["5", "6", "7", "8"], "answer": "6" },
+        { "question": "Solve: x² = 49", "options": ["6", "7", "8", "9"], "answer": "7" },
+        { "question": "If perimeter of square = 40, find side.", "options": ["8", "9", "10", "12"], "answer": "10" }
+      ]
+    },
+    {
+      "level": 9,
+      "difficulty": "Advanced",
+      "questions": [
+        { "question": "Find x: 4x + 8 = 24", "options": ["2", "3", "4", "5"], "answer": "4" },
+        { "question": "Simplify: (5³ - 3³)", "options": ["98", "99", "100", "101"], "answer": "98" },
+        { "question": "If (a+b)=10, (a−b)=4, find a.", "options": ["6", "7", "8", "9"], "answer": "7" },
+        { "question": "Find the next in series: 3, 9, 27, ?", "options": ["54", "72", "81", "90"], "answer": "81" },
+        { "question": "If a = 4, find a³ + a²", "options": ["64", "80", "84", "88"], "answer": "80" }
+      ]
+    },
+    {
+      "level": 10,
+      "difficulty": "Expert",
+      "questions": [
+        { "question": "If 2x + 3y = 12 and x = 3, find y.", "options": ["1", "2", "3", "4"], "answer": "2" },
+        { "question": "Find sum: 1 + 2 + 3 + ... + 10", "options": ["45", "50", "55", "60"], "answer": "55" },
+        { "question": "If √x = 5, find x.", "options": ["15", "20", "25", "30"], "answer": "25" },
+        { "question": "Find LCM of 8, 12, 16", "options": ["24", "36", "48", "60"], "answer": "48" },
+        { "question": "Solve: (3x² = 27)", "options": ["2", "3", "4", "5"], "answer": "3" }
+      ]
+    }
+  ]
+}
