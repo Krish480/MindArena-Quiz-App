@@ -8,7 +8,7 @@ async function loadQuiz() {
   const category = params.get("category") || "mathematics";
   const level = parseInt(params.get("level")) || 1;
 
-  // ✅ Load selected language from settings
+  //  Load selected language from settings
   const userSettings = JSON.parse(localStorage.getItem("userSettings")) || {};
   const lang = userSettings.language || "en";
 
@@ -369,10 +369,11 @@ function checkAchievements(score, total, timeElapsed, category) {
   }
 
   // After achievements saved
-  localStorage.setItem("userProgress", JSON.stringify({
-    ...JSON.parse(localStorage.getItem("userProgress")),
-    achievements: JSON.parse(localStorage.getItem("userAchievements")).earned.map(a => a.name)
-  }));
+  const progress = JSON.parse(localStorage.getItem("userProgress")) || {};
+  const userAchievements = JSON.parse(localStorage.getItem("userAchievements")) || { earned: [] };
+  progress.achievements = userAchievements.earned.map(a => a.name);
+  localStorage.setItem("userProgress", JSON.stringify(progress));
+
 
 }
 

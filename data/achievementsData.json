@@ -2,44 +2,34 @@
   "earned": [],
   "locked": [
     {
+      "name": "Knowledge Guru",
+      "desc": "Completed 5 perfect quizzes!",
+      "icon": "fa-book",
+      "color": "text-cyan-400"
+    },
+    {
       "name": "Speed Solver",
-      "desc": "Complete a quiz in under 60 seconds!",
-      "icon": "fa-bolt"
+      "desc": "Completed a quiz in under 60 seconds!",
+      "icon": "fa-bolt",
+      "color": "text-yellow-400"
     },
     {
       "name": "Quiz Master",
-      "desc": "Score 80% or higher in a quiz!",
-      "icon": "fa-brain"
-    },
-    {
-      "name": "Legendary Mind",
-      "desc": "Score 100% in any quiz!",
-      "icon": "fa-trophy"
-    },
-    {
-      "name": "Knowledge Guru",
-      "desc": "Achieve 100% score in 5 quizzes!",
-      "icon": "fa-book"
+      "desc": "Scored 80%+ in 5 quizzes!",
+      "icon": "fa-brain",
+      "color": "text-pink-400"
     },
     {
       "name": "Unstoppable",
       "desc": "Maintain a 7-day quiz streak!",
-      "icon": "fa-fire"
+      "icon": "fa-fire",
+      "color": "text-orange-500"
     },
     {
-      "name": "Quiz King",
-      "desc": "Win 10 quiz challenges!",
-      "icon": "fa-crown"
-    },
-    {
-      "name": "Elite Player",
-      "desc": "Reach Level 10 in your progress!",
-      "icon": "fa-rocket"
-    },
-    {
-      "name": "Top Ranker",
-      "desc": "Rank #1 on the leaderboard!",
-      "icon": "fa-star"
+      "name": "Legendary Mind",
+      "desc": "Scored 100% in one quiz!",
+      "icon": "fa-trophy",
+      "color": "text-yellow-400"
     }
   ]
 }
